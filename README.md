@@ -103,7 +103,7 @@ src/
 
 ### Linear Structures
 
-- [ ] Linked List
+- [X] Linked List
 - [ ] Doubly Linked List
 - [ ] Stack
 - [ ] Queue
@@ -169,13 +169,14 @@ uv sync
 Example:
 
 ```python
-from dsa.data_structures import UnionFind
+from dsa.data_structures.linked_list import LinkedList
 
-uf = UnionFind(["A", "B", "C"])
+ll = LinkedList([1, 2, 3])
 
-uf.union("A", "B")
-
-print(uf.connected("A", "B"))
+ll.insert_front(0)   # [0, 1, 2, 3]
+ll.insert_back(4)    # [0, 1, 2, 3, 4]
+ll.find(3)           # 3
+ll.delete(2)         # [0, 1, 3, 4]
 ```
 
 ## Future Work

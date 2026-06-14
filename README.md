@@ -104,7 +104,7 @@ src/
 ### Linear Structures
 
 - [X] Linked List
-- [ ] Doubly Linked List
+- [X] Doubly Linked List
 - [ ] Stack
 - [ ] Queue
 - [ ] Priority Queue

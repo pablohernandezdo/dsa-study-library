@@ -171,8 +171,8 @@ class LinkedList:
         if self.head is None:
             return
 
-        prev = None
-        current = self.head
+        prev: _Node | None = None
+        current: _Node | None = self.head
 
         while current:
             if current.value == value:

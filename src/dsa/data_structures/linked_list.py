@@ -93,6 +93,8 @@ class LinkedList:
         """
         Insert a value at the beginning of the list.
 
+        If the list is empty, the inserted node is assigned to the head.
+
         Args:
             value: The value to be inserted.
 
@@ -108,6 +110,8 @@ class LinkedList:
     def insert_back(self, value: int) -> None:
         """
         Insert a value at the end of the list.
+
+        If the list is empty, the inserted node is assigned to the head.
 
         Args:
             value: The value to be inserted.
@@ -133,7 +137,7 @@ class LinkedList:
             value: Value to be found.
 
         Returns:
-            The zero-based index of the value.
+            The zero-based index of the value's first occurrence.
 
         Raises:
             ValueError: If the value is not present in the list.
@@ -171,8 +175,8 @@ class LinkedList:
         if self.head is None:
             return
 
-        prev = None
-        current = self.head
+        prev: _Node | None = None
+        current: _Node | None = self.head
 
         while current:
             if current.value == value:

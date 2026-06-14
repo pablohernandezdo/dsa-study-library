@@ -16,3 +16,6 @@ htmlcov/
 
 # Type hints
 .mypy_cache/
+
+# Vscode
+.vscode

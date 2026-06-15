@@ -1,7 +1,9 @@
-# DSA Study
+# DSA Learning Library
 
 [![CI](https://github.com/pablohernandezdo/dsa-study-library/actions/workflows/ci.yml/badge.svg)](https://github.com/pablohernandezdo/dsa-study-library/actions/workflows/ci.yml)
-
+[![PyPI](https://img.shields.io/pypi/v/dsa-study)](https://pypi.org/project/dsa-study/)
+[![Python](https://img.shields.io/pypi/pyversions/dsa-study)](https://pypi.org/project/dsa-study/)
+[![License](https://img.shields.io/github/license/pablohernandezdo/dsa-study-library)](https://github.com/pablohernandezdo/dsa-study-library/blob/main/LICENSE)
 
 Educational implementations of common data structures and algorithms written in clean, typed, idiomatic Python.
 
@@ -160,6 +162,12 @@ Every implementation should include tests covering:
 - Invalid inputs
 
 ## Usage
+
+Installation:
+
+```
+pip install dsa-study
+```
 
 Installation from source:
 

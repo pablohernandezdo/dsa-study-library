@@ -6,7 +6,13 @@ mypy:
 
 test:
     uv run pytest
-    
+
+cov:
+    uv run pytest --cov=dsa --cov-report=term-missing
+
+cov-html:
+    uv run pytest --cov=dsa --cov-report=html
+
 pre-commit:
     uv run pre-commit run --all-files
 

@@ -3,8 +3,15 @@ name = "dsa-study"
 version = "0.4.2"
 description = "A project to implement various data structures and algorithms in Python."
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<3.14"
 license = "MIT"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+    "License :: OSI Approved :: MIT License",
+]
 
 authors = [
     { name = "Pablo Hernandez" }

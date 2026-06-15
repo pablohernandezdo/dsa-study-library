@@ -1,6 +1,6 @@
 version = 1
 revision = 2
-requires-python = ">=3.13"
+requires-python = ">=3.13,<3.14"
 resolution-markers = [
     "python_full_version >= '3.15'",
     "python_full_version < '3.15'",
@@ -144,7 +144,7 @@ wheels = [
 
 [[package]]
 name = "dsa-study"
-version = "0.4.2"
+version = "0.4.5"
 source = { editable = "." }
 
 [package.dev-dependencies]

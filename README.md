@@ -1,5 +1,8 @@
 # DSA Study
 
+[![CI](https://github.com/pablohernandezdo/dsa-study-library/actions/workflows/ci.yml/badge.svg)](https://github.com/pablohernandezdo/dsa-study-library/actions/workflows/ci.yml)
+
+
 Educational implementations of common data structures and algorithms written in clean, typed, idiomatic Python.
 
 > ⚠️ This project is currently under active development and is primarily intended for learning and educational purposes.

@@ -112,6 +112,7 @@ src/
 - [X] Doubly Linked List
 - [X] Stack
 - [X] Queue
+- [X] Deque
 - [ ] Priority Queue
 
 ### Trees

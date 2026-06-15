@@ -44,13 +44,13 @@ class DoublyLinkedList:
             return
 
         self.head = _Node(values[0])
-        prev: _Node = self.head
+        current: _Node = self.head
 
         for value in values[1:]:
-            prev.next = _Node(value, prev)
-            prev = prev.next
+            current.next = _Node(value, current)
+            current = current.next
 
-        self.tail = prev
+        self.tail = current
 
     def __len__(self) -> int:
         """

@@ -110,7 +110,7 @@ src/
 
 - [X] Linked List
 - [X] Doubly Linked List
-- [ ] Stack
+- [X] Stack
 - [X] Queue
 - [ ] Priority Queue
 

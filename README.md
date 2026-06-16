@@ -114,9 +114,19 @@ src/
 - [X] Queue
 - [ ] Priority Queue
 
-### Trees
+### Hash Based Structures
 
+- [X] Hash Map Chaining
+- [ ] Hash Map Open Addressing
+- [ ] Hash Set
+
+### Tree Structures
+
+- [ ] Binary Heap
 - [ ] Binary Search Tree
+
+### Advanced Trees
+
 - [ ] Trie
 
 ### Graph Structures

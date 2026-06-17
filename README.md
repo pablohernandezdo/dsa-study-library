@@ -119,7 +119,7 @@ src/
 
 - [X] Hash Map Chaining
 - [ ] Hash Map Open Addressing
-- [ ] Hash Set
+- [X] Hash Set
 
 ### Tree Structures
 

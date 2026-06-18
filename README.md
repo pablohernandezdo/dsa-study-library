@@ -113,7 +113,7 @@ src/
 - [X] Stack
 - [X] Queue
 - [X] Deque
-- [ ] Priority Queue
+- [X] Priority Queue
 
 ### Hash Based Structures
 

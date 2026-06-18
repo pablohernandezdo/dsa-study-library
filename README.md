@@ -123,7 +123,7 @@ src/
 
 ### Tree Structures
 
-- [ ] Binary Heap
+- [X] Binary Heap
 - [ ] Binary Search Tree
 
 ### Advanced Trees
